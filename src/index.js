@@ -5,11 +5,11 @@ import App from './App';
 import {MenuProvider} from './Context';
 
 ReactDOM.render(
-  <MenuProvider>
+    <MenuProvider>
     <Router>
     <App /> 
     </Router>
-  </MenuProvider>,
+    </MenuProvider>,
   document.getElementById('root')
 );
 

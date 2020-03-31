@@ -5,26 +5,26 @@ import styled from 'styled-components';
 export class Navbar extends Component {
     render() {
         return (
-            <div className="navbar navbar-collapsed navbar-expand-lg bg-info navbar-dark px-sm-5">
-                <div></div>
-                    <NavText>
-                    <Link to="/" className="navbar-brand-hover text-light">Home</Link>
-                    </NavText>
-
-                    <ul className="navbar-nav align-items-center">
-                        <li className="nav-item ml-5">
-                            <NavText  >
-                            <Link to="/" className="nav-link-hover text-light">メニュー</Link> 
-                            </NavText>
-                        </li>
-                    </ul>
-                    
-                    <Link to="/check" className="ml-auto">
-                        <ButtonCheck>
-                        <i className="fa fa-check-square-o btn btn-md btn-outline-light">チェック</i>
-                        </ButtonCheck>
-                    </Link>  
+            <div className=" navbar fixed-top navbar-collapsed navbar-expand-lg bg-info px-sm-5">
                 
+                <NavText>
+                <Link to="/" className="navbar-brand-hover text-light">食事</Link>
+                </NavText>
+
+                <ul className="navbar-nav align-items-center">
+                    <li className="nav-item ml-5">
+                        <NavText  >
+                        <Link to="/2" className="nav-link-hover text-light">ドリンク</Link> 
+                        </NavText>
+                    </li>
+                </ul>
+                
+                <Link to="/check" className="ml-auto">
+                    <ButtonCheck>
+                    <i className="fa fa-check-square-o btn btn-md btn-outline-light">チェック</i>
+                    </ButtonCheck>
+                </Link>  
+            
             </div>
         )
     }
