@@ -22,12 +22,12 @@ export default function CheckList({ data, value }) {
                 <div className="col-10 px-0 max-auto col-lg-2 ">
                 {data.name}
                 </div>
-                <div className="col-10 px-0 max-auto col-6 ">
+                <div className="col-10 px-0 max-auto col-lg-2 ">
                     <span className='d-lg-nono'>値段 :</span>
                     {data.price}
                 </div>
 
-                <div className="col-10 px-0 max-auto col-6 ">
+                <div className="col-10 px-0 max-auto col-lg-2 ">
                     <span className='d-lg-nono'>個数 :</span>
                     {data.count}
                 </div>
@@ -48,14 +48,14 @@ export default function CheckList({ data, value }) {
                     </div>
                 </div> */}
 
-                <div className="col-10 px-0 max-auto col-6 ">
+                <div className="col-10 px-0 max-auto col-lg-2 ">
                     <span className='fa fa-trash-o btn btn-outline-primary justify-cotent-center'
                     onClick={() =>{ handleDelete(id)}}
                     >
                     </span>
                 </div>
 
-                <div className="col-10 px-0 max-auto col-6 ">
+                <div className="col-10 px-0 max-auto col-lg-2 ">
                     <span className='d-lg-nono'>合計 :</span>
                     <strong>
                         {data.total}
