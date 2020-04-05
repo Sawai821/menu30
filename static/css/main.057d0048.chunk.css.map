@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,eACI,eAAgB,CAChB,YACJ,CAEA,EACI,oCAAsC,CACtC,+BACJ","file":"main.057d0048.chunk.css","sourcesContent":[".img-thumbnail{\n    width: auto 100%;\n    height: 200px;\n}\n\n*{\n    font-family: 'Kosugi Maru', sans-serif;\n    font-family: 'Oswald', sans-serif;\n}"]}
